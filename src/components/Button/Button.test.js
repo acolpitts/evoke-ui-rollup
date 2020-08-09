@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, getByText, fireEvent } from '@testing-library/react';
-import Button from './Button';
+import Button from './Button.component';
 
 describe('Button', () => {
   test('should display text', () => {
